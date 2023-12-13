@@ -11,7 +11,7 @@ import {
 const app = express();
 
 app.use(express.json());
-
+app.get("/",(req,res)=>res.status(200).send("Server is live"))
 app.post("/createRoom", createRoom);
 app.get("/getRooms", getRooms);
 app.post("/createBooking", createBooking);
