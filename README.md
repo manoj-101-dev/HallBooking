@@ -1,5 +1,5 @@
 # HallBooking Application
-      This application provides functionalities for managing rooms and bookings within a space rental service.
+This application provides functionalities for managing rooms and bookings within a space rental service.
 
 ## API Endpoints
 
